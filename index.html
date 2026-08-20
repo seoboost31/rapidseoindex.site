@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>Rapid SEO Index | Faster Indexing & SEO Visibility</title>
+<meta name="description" content="Rapid SEO Index helps SEO teams monitor indexability, submit URLs, track indexing signals and improve technical SEO visibility.">
+<meta name="robots" content="index,follow">
+<meta name="theme-color" content="#07111f">
+<link rel="canonical" href="https://rapidseoindex.site/">
+<style>
+:root{--bg:#07111f;--panel:#0d1b2d;--panel2:#10243a;--text:#f6fbff;--muted:#9eb0c3;--green:#35e6a4;--blue:#49b8ff;--line:rgba(255,255,255,.09);--max:1150px}
+*{box-sizing:border-box;margin:0;padding:0}html{scroll-behavior:smooth}
+body{font-family:Inter,Arial,sans-serif;background:radial-gradient(circle at 80% 10%,rgba(53,230,164,.13),transparent 28%),var(--bg);color:var(--text);line-height:1.6}
+a{text-decoration:none;color:inherit}.container{width:min(var(--max),92%);margin:auto}
+header{position:sticky;top:0;z-index:10;background:rgba(7,17,31,.86);backdrop-filter:blur(14px);border-bottom:1px solid var(--line)}
+nav{height:74px;display:flex;align-items:center;justify-content:space-between}
+.logo{font-size:20px;font-weight:900;letter-spacing:-.7px}.logo span{color:var(--green)}
+.links{display:flex;gap:27px;color:#b8c6d5;font-size:14px}.links a:hover{color:#fff}
+.btn{display:inline-flex;align-items:center;justify-content:center;padding:12px 18px;border-radius:10px;font-weight:800;font-size:14px}
+.primary{background:var(--green);color:#04150e;box-shadow:0 12px 35px rgba(53,230,164,.2)}.secondary{border:1px solid var(--line)}
+.hero{padding:105px 0 85px;display:grid;grid-template-columns:1.05fr .95fr;gap:70px;align-items:center}
+.kicker{display:inline-block;color:var(--green);font-weight:850;font-size:12px;letter-spacing:1.6px;margin-bottom:19px}
+h1{font-size:clamp(45px,6vw,72px);line-height:1.02;letter-spacing:-3.8px}
+.grad{background:linear-gradient(90deg,var(--green),var(--blue));-webkit-background-clip:text;color:transparent}
+.hero p{color:var(--muted);font-size:18px;max-width:620px;margin:23px 0 30px}.actions{display:flex;gap:12px;flex-wrap:wrap}
+.stats{display:flex;gap:32px;margin-top:40px}.stats b{font-size:23px}.stats span{display:block;color:var(--muted);font-size:12px}
+.console{background:linear-gradient(150deg,var(--panel2),var(--panel));border:1px solid var(--line);border-radius:22px;padding:21px;box-shadow:0 35px 90px rgba(0,0,0,.28)}
+.top{display:flex;justify-content:space-between;align-items:center;margin-bottom:19px}.status{font-size:12px;color:var(--green);background:rgba(53,230,164,.08);padding:6px 9px;border-radius:20px}
+.input{height:47px;border:1px solid var(--line);border-radius:10px;display:flex;align-items:center;padding:0 13px;color:#71879b;font-size:13px;margin-bottom:13px}.scan{height:47px;width:100%;border:0;border-radius:10px;background:var(--green);font-weight:850;color:#04150e}
+.results{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-top:14px}.result{padding:13px;border:1px solid var(--line);border-radius:10px;background:rgba(255,255,255,.025)}.result small{color:var(--muted)}.result strong{display:block;margin-top:4px}
+.bars{height:130px;display:flex;align-items:end;gap:8px;margin-top:17px;border-bottom:1px solid var(--line);padding:0 5px}.bar{flex:1;background:linear-gradient(var(--blue),var(--green));border-radius:5px 5px 0 0}.a{height:35%}.b{height:49%}.c{height:42%}.d{height:62%}.e{height:58%}.f{height:78%}.g{height:91%}
+section{padding:82px 0}.head{max-width:680px;margin-bottom:38px}.eyebrow{color:var(--green);font-size:11px;font-weight:850;letter-spacing:1.5px}.head h2{font-size:40px;line-height:1.1;letter-spacing:-2px;margin:9px 0 12px}.head p,.card p,.step p{color:var(--muted)}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.card{padding:25px;border:1px solid var(--line);border-radius:17px;background:rgba(13,27,45,.7);transition:.2s}.card:hover{transform:translateY(-4px);border-color:rgba(53,230,164,.35)}
+.icon{font-size:21px;width:43px;height:43px;display:grid;place-items:center;border-radius:11px;background:rgba(53,230,164,.09);color:var(--green);margin-bottom:16px}.card h3{margin-bottom:7px;font-size:18px}
+.steps{display:grid;grid-template-columns:repeat(4,1fr);gap:13px}.step{padding:23px;border-top:2px solid var(--green);background:rgba(255,255,255,.03);border-radius:12px}.num{color:var(--green);font-size:11px;font-weight:850}.step h3{margin:9px 0 6px}
+.cta{padding:58px;text-align:center;border:1px solid var(--line);border-radius:25px;background:radial-gradient(circle,rgba(53,230,164,.13),transparent 65%),var(--panel)}.cta h2{font-size:43px;letter-spacing:-2px}.cta p{color:var(--muted);max-width:650px;margin:12px auto 24px}
+footer{border-top:1px solid var(--line);padding:27px 0;color:var(--muted);font-size:13px}.foot{display:flex;justify-content:space-between}
+@media(max-width:850px){.links{display:none}.hero{grid-template-columns:1fr}.grid{grid-template-columns:1fr 1fr}.steps{grid-template-columns:1fr 1fr}}
+@media(max-width:560px){.grid,.steps{grid-template-columns:1fr}.hero{padding-top:70px}.stats{gap:17px;flex-wrap:wrap}.cta{padding:35px 20px}.cta h2,.head h2{font-size:32px}.foot{flex-direction:column;gap:8px}}
+</style>
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebSite","name":"Rapid SEO Index","url":"https://rapidseoindex.site/","description":"SEO indexing and indexability monitoring platform."}
+</script>
+</head>
+<body>
+<header><div class="container"><nav>
+<a class="logo" href="#">Rapid<span>SEO</span> Index</a>
+<div class="links"><a href="#tools">Tools</a><a href="#workflow">Workflow</a><a href="#features">Features</a></div>
+<a class="btn primary" href="#start">Check a URL</a>
+</nav></div></header>
+
+<main>
+<section class="hero container">
+<div>
+<div class="kicker">⚡ RAPID SEO VISIBILITY</div>
+<h1>Get your URLs <span class="grad">ready to be found.</span></h1>
+<p>Rapid SEO Index gives SEO professionals a simple way to inspect indexability, monitor important technical signals and keep valuable pages on track for search visibility.</p>
+<div class="actions"><a class="btn primary" href="#start">Run a Free Check →</a><a class="btn secondary" href="#tools">Explore Tools</a></div>
+<div class="stats"><div><b>Bulk</b><span>URL workflows</span></div><div><b>Live</b><span>Technical signals</span></div><div><b>SEO</b><span>Focused reports</span></div></div>
+</div>
+<div class="console">
+<div class="top"><div><b>Indexability Scanner</b><br><small style="color:#8196aa">Technical URL diagnostics</small></div><span class="status">● READY</span></div>
+<div class="input">https://yourwebsite.com/new-page</div>
+<button class="scan">Analyze URL</button>
+<div class="results"><div class="result"><small>HTTP</small><strong>200 OK</strong></div><div class="result"><small>Robots</small><strong>Allowed</strong></div><div class="result"><small>Canonical</small><strong>Valid</strong></div></div>
+<div class="bars"><i class="bar a"></i><i class="bar b"></i><i class="bar c"></i><i class="bar d"></i><i class="bar e"></i><i class="bar f"></i><i class="bar g"></i></div>
+</div>
+</section>
+
+<section id="tools"><div class="container">
+<div class="head"><div class="eyebrow">CORE SEO TOOLS</div><h2>Find the blockers before they become ranking problems.</h2><p>Build a cleaner indexing workflow with practical technical checks and easy-to-understand reporting.</p></div>
+<div class="grid">
+<div class="card"><div class="icon">⌕</div><h3>Indexability Check</h3><p>Review public signals that can indicate whether a URL is discoverable and technically eligible for indexing.</p></div>
+<div class="card"><div class="icon">↯</div><h3>Robots.txt Analysis</h3><p>Spot crawler directives that may prevent important pages or directories from being crawled.</p></div>
+<div class="card"><div class="icon">◎</div><h3>Noindex Detection</h3><p>Identify meta robots and related directives that can intentionally or accidentally block indexation.</p></div>
+<div class="card"><div class="icon">◈</div><h3>Canonical Check</h3><p>Review canonical signals and find potential URL duplication or consolidation issues.</p></div>
+<div class="card"><div class="icon">↗</div><h3>Sitemap Signals</h3><p>Keep important URLs discoverable by checking sitemap availability and consistency.</p></div>
+<div class="card"><div class="icon">▣</div><h3>Bulk Monitoring</h3><p>Organize large URL sets and monitor technical changes across content and SEO campaigns.</p></div>
+</div>
+</div></section>
+
+<section id="workflow"><div class="container">
+<div class="head"><div class="eyebrow">HOW IT WORKS</div><h2>A faster SEO indexing workflow.</h2><p>Use a simple diagnostic-first process rather than guessing why a page is missing from search.</p></div>
+<div class="steps">
+<div class="step"><span class="num">01 / SCAN</span><h3>Enter URLs</h3><p>Start with one page or organize a larger URL set.</p></div>
+<div class="step"><span class="num">02 / DIAGNOSE</span><h3>Find Issues</h3><p>Review crawlability, directives, status and canonical signals.</p></div>
+<div class="step"><span class="num">03 / FIX</span><h3>Optimize</h3><p>Resolve technical blockers and strengthen discovery paths.</p></div>
+<div class="step"><span class="num">04 / MONITOR</span><h3>Track</h3><p>Keep important pages under ongoing SEO visibility checks.</p></div>
+</div>
+</div></section>
+
+<section id="features"><div class="container"><div class="cta" id="start">
+<div class="eyebrow">START YOUR CHECK</div><h2>Make every important URL count.</h2>
+<p>Turn technical SEO signals into clear actions and build a more reliable indexing workflow for your website.</p>
+<a class="btn primary" href="mailto:hello@rapidseoindex.site">Contact Rapid SEO Index →</a>
+</div></div></section>
+</main>
+<footer><div class="container foot"><span>© 2026 Rapid SEO Index. All rights reserved.</span><span>SEO Diagnostics • Indexability • Technical SEO</span></div></footer>
+</body></html>
